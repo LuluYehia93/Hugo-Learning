@@ -1,0 +1,61 @@
+baseurl         = "https://Alaa.Blog.com"
+title           = "Alaa's Site"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""  
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Alaa's Blog"
+  subtitle    = "My New Site"
+
+  cover       = "uploads/header2.jpeg"
+  description = "Alaa Yehia Awesome Example Site"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "A_lulu93"
+  fbName = "Alaa.Mohammed93"
+  githubName = "LuluYehia93"
+
+  logo = ""
+  orgName = "ASY"
+  orgWebsite = ""
+  orgDescription = ""
+
+  author = "Alaa Yehia"
+  authorAvatar = "uploads/profile-pic.jpg"
+  authorLocation = "Hawally, Kuwait"
+  authorWebsite = ""
+  authorDescription = "Website Developer"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Projects"
+  url = "/tags/Projects/"
+  weight = 100
+
+[[menu.main]]
+  name = "My Life"
+  url = "/categories/Life/"
+  weight = 99
+
+[[menu.main]]
+  name = "Google"
+  url = "https://google.com/"
+  weight = 95
